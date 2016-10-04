@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.chelsea.assignment1.MainActivity">
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To Do List"
+            android:textColor="#0177fd"
+            android:textSize="40sp"
+            android:layout_centerHorizontal="true"/>
+        <EditText
+            android:id="@+id/ed1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input Task Tittle"
+            android:selectAllOnFocus="true"
+            android:layout_below="@id/txt1" />
+        <EditText
+            android:id="@+id/ed2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input Task Description"
+            android:selectAllOnFocus="true"
+            android:layout_below="@id/ed1"/>
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:background="#0177fd"
+            android:textSize="30dp"
+            android:text="Add"
+            android:textColor="#fdfdfd"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"/>
+    <ListView
+        android:id="@+id/list1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ListView>
+</RelativeLayout>
+
+
+
