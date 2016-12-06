@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_weight="3"
+            android:id="@+id/txt_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@drawable/bg"
+            android:textColor="@color/text_blue"
+            android:textSize="20sp"/>
+
+    </RelativeLayout>
+
+    <GridLayout
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:columnCount="3"
+        android:orientation="horizontal"
+        android:rowCount="2" >
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:drawableTop="@drawable/food"
+            android:text="Food"
+            android:textColor="@color/text_gray"
+            android:background="@color/bg_white"
+            />
+
+        <Button
+            android:id="@+id/bt2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:drawableTop="@drawable/shop"
+            android:text="Shop"
+            android:textColor="@color/text_gray"
+            android:background="@color/bg_white"
+            />
+
+        <Button
+            android:id="@+id/bt3"
+            android:drawableTop="@drawable/hangout"
+            android:text="Hangout"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:textColor="@color/text_gray"
+            android:background="@color/bg_white"
+            />
+
+        <Button
+            android:id="@+id/bt4"
+            android:drawableTop="@drawable/sell"
+            android:text="Sell"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:textColor="@color/text_gray"
+            android:background="@color/bg_white"
+            />
+
+        <Button
+            android:id="@+id/bt5"
+            android:drawableTop="@drawable/hotel"
+            android:text="Hotel"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:textColor="@color/text_gray"
+            android:background="@color/bg_white"
+            />
+
+        <Button
+            android:id="@+id/bt6"
+            android:drawableTop="@drawable/bar"
+            android:text="Bar"
+            android:textColor="@color/text_gray"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@color/bg_white"
+            />
+
+    </GridLayout>
+
+</LinearLayout>

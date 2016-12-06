@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mobileappclass.finalproject.About"
+    android:background="@color/bg_white">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/bg_white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="POST NEW"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/text_blue"
+            android:gravity="center"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/div_white"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="2dp"
+            android:src="#E4E3E3" />
+
+        <EditText
+            android:id="@+id/tittle_et"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/bg_white"
+            android:gravity="top"
+            android:hint="Write the tittle"
+            android:textColorHint="@color/text_gray"
+            android:maxLength="30"
+            android:padding="5dp"
+            android:textColor="@color/text_blue"
+            android:textSize="20sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20px"
+            android:background="@color/div_white"
+            android:layout_alignParentBottom="true"/>
+
+        <EditText
+            android:id="@+id/content_et"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@color/bg_white"
+            android:gravity="top"
+            android:hint="Write something you want to share..."
+            android:textColorHint="@color/text_gray"
+            android:maxLength="500"
+            android:padding="5dp"
+            android:textColor="@color/text_blue"
+            android:textSize="20sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20px"
+            android:background="@color/div_white"
+            android:layout_alignParentBottom="true"/>
+
+
+
+        <GridView
+            android:id="@+id/gridView1"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:background="#FFFFFF"
+            android:columnWidth="90dp"
+            android:gravity="center"
+            android:horizontalSpacing="5dp"
+            android:numColumns="4"
+            android:padding="10dp"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="5dp" >
+        </GridView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:src="#E4E3E3" />
+
+        <Button
+            android:id="@+id/send_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/text_blue"
+            android:gravity="center"
+            android:text="Send"
+            android:textColor="#FFFF"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/postback"
+            android:layout_gravity="center"
+            android:background="@color/text_blue"
+            android:text="Back"
+            android:drawableLeft="@drawable/back"
+            android:textColor="@color/bg_white"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

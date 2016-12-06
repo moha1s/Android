@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mobileappclass.finalproject.About"
+    android:background="@color/bg_white">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/bg_white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="SETTING"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/text_blue"
+            android:gravity="center"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/div_white"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20px"
+        android:background="@color/bg_white"
+        android:layout_alignParentBottom="true"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/bg_white">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:text="Name: "
+            android:drawableLeft="@drawable/name"
+            android:textColor="@color/text_blue"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:paddingLeft="30dp"/>
+        <EditText
+            android:id="@+id/ed1"
+            android:textColor="@color/text_blue"
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:paddingRight="12dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/bg_white">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="Say Some:"
+            android:drawableLeft="@drawable/write"
+            android:textColor="@color/text_blue"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:paddingLeft="30dp"/>
+        <EditText
+            android:id="@+id/ed2"
+            android:textColor="@color/text_blue"
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:paddingRight="12dp"/>
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/settingback"
+            android:layout_gravity="center"
+            android:background="@color/text_blue"
+            android:text="Back"
+            android:drawableLeft="@drawable/back"
+            android:paddingLeft="15dp"
+            android:textColor="@color/bg_white"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>
