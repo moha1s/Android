@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tab</string>
+    <string name="text_home">Home</string>
+    <string name="text_list">List</string>
+    <string name="text_place">History</string>
+    <string name="text_me">Me</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_adcise">Adcise</string>
+    <string name="title_activity_donate">Donate</string>
+    <string name="title_activity_setting">Setting</string>
+    <string name="title_activity_post">Post</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

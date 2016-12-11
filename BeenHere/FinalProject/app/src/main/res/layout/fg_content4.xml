@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/bg_white">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Me"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/text_blue"
+            android:gravity="center"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/div_white"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_white">
+
+        <ImageView
+            android:id="@+id/ima1"
+            android:background="@drawable/history"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="11dp"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:text="TBD"
+            android:textStyle="bold"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginRight="12dp"
+            android:gravity="center"
+            android:textColor="@color/text_gray"
+            android:textSize="30sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/setting"
+            android:text="Setting Pofile"
+            android:drawableLeft="@drawable/setting"
+            android:paddingLeft="12dp"
+            android:textColor="@color/text_gray"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:background="@color/bg_white"
+            android:layout_marginTop="61dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="12dp"/>
+
+        <TextView
+            android:id="@+id/profile"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_width="match_parent"
+            android:text="fantastic appliaction."
+            android:textColor="@color/text_gray"
+            android:layout_height="50dp"
+            android:layout_marginTop="120dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="160dp">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@color/bg_white" />
+
+            <Button
+                android:id="@+id/post"
+                android:layout_gravity="center"
+                android:background="@color/text_blue"
+                android:text="Post New"
+                android:drawableLeft="@drawable/edit"
+                android:paddingLeft="15dp"
+                android:textColor="@color/bg_white"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/bg_white" />
+
+            <Button
+                android:id="@+id/aboutus"
+                android:text="About Us"
+                android:drawableLeft="@drawable/about"
+                android:drawableRight="@drawable/arrow"
+                android:paddingRight="30dp"
+                android:paddingLeft="12dp"
+                android:textColor="@color/text_gray"
+                android:background="@color/bg_white"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="@color/div_white" />
+
+            <Button
+                android:id="@+id/advise"
+                android:text="advise"
+                android:drawableLeft="@drawable/advise"
+                android:drawableRight="@drawable/arrow"
+                android:paddingRight="30dp"
+                android:paddingLeft="12dp"
+                android:textColor="@color/text_gray"
+                android:background="@color/bg_white"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="@color/div_white" />
+
+            <Button
+                android:id="@+id/donate"
+                android:text="Donate us"
+                android:drawableLeft="@drawable/money"
+                android:drawableRight="@drawable/arrow"
+                android:paddingRight="30dp"
+                android:paddingLeft="12dp"
+                android:textColor="@color/text_gray"
+                android:background="@color/bg_white"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="@color/div_white" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
